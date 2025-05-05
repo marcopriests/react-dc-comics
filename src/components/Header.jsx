@@ -1,10 +1,8 @@
-import React from 'react'
-
 const Header = () => {
   return (
-    <div>
-      
-    </div>
+    <figure>
+        <img src="dc-logo.png" alt="DC LOGO" />
+    </figure>
   )
 }
 
