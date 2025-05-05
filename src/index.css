@@ -25,7 +25,7 @@ a {
 
 /* -----------------------------------------------HEADER */
 
-header{
+header {
   padding: 20px 0;
   display: flex;
   align-items: center;
@@ -38,17 +38,18 @@ ul {
   gap: 20px;
 }
 
-ul li a{
+ul li a {
   font-weight: 600;
 }
 
-header ul li a:hover, ul li a:active {
+header ul li a:hover,
+ul li a:active {
   border-bottom: 4px solid #0c7cec;
 }
 
 /* -----------------------------------------------MAIN */
 
-main{
+main {
   background-color: #1c1c1c;
   color: white;
   text-align: center;
@@ -61,7 +62,7 @@ main h1 {
 main .cta {
   background-color: #0c7cec;
   padding: 50px 0;
-} 
+}
 
 main ul {
   justify-content: space-between;
@@ -69,7 +70,7 @@ main ul {
   gap: 30px;
 }
 
-main ul li a{
+main ul li a {
   color: white;
   font-weight: 100;
   font-size: 14px;
@@ -80,4 +81,56 @@ main ul li a{
 
 .cta-img {
   max-width: 30px;
+}
+
+/* -----------------------------------------------FOOTER */
+
+footer {
+  background-image: url('./public/img/footer-bg.jpg');
+}
+
+footer ul {
+  display: block;
+  color: white;
+  margin: 50px 0;
+}
+
+footer ul li a {
+  color: lightgray;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+footer .container {
+  display: flex;
+  gap: 20px;
+}
+
+.list-title {
+  margin: 10px 0;
+}
+
+.footer-cta {
+  background-color: #1c1c1c;
+  padding: 30px 0;
+}
+
+.footer-cta .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-cta .container a {
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: 2px solid #0c7cec;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+  color: #0c7cec;
+  align-items: center;
 }
