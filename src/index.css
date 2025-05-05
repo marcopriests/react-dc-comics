@@ -10,6 +10,7 @@ body {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -41,7 +42,42 @@ ul li a{
   font-weight: 600;
 }
 
-ul li a:hover, ul li a:active {
+header ul li a:hover, ul li a:active {
   border-bottom: 4px solid #0c7cec;
 }
 
+/* -----------------------------------------------MAIN */
+
+main{
+  background-color: #1c1c1c;
+  color: white;
+  text-align: center;
+}
+
+main h1 {
+  padding: 100px 0;
+}
+
+main .cta {
+  background-color: #0c7cec;
+  padding: 50px 0;
+} 
+
+main ul {
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+main ul li a{
+  color: white;
+  font-weight: 100;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cta-img {
+  max-width: 30px;
+}
