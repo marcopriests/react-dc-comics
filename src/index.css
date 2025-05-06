@@ -104,6 +104,13 @@ main {
   font-size: 12px;
 }
 
+.loadButton{
+  background-color: #0c7cec;
+  padding: 10px 100px;
+  margin: 50px 0;
+  display: inline-block;
+}
+
 main .cta {
   background-color: #0c7cec;
   padding: 50px 0;
