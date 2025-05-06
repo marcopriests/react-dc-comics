@@ -55,6 +55,36 @@ main {
   text-align: center;
 }
 
+.cardContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card{
+  width: 200px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.comicImg{
+  margin: 20px 0;
+}
+
+.comicImg img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.comicTitle{
+  text-align: start;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
 main .cta {
   background-color: #0c7cec;
   padding: 50px 0;

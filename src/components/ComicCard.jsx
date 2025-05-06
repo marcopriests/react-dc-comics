@@ -1,18 +1,16 @@
 import React from 'react'
 
-const ComicCard = () => {
-  return (
-    <div className='container'>
-        <div className="cardContainer">
-            <div className="card">
-                <div className="comicImg">
-                    <img src="" alt="" />
-                </div>
-                <div className="comicTitle">ACTION COMICS</div>
+const ComicCard = (props) => {
+    const { image, title } = props
+
+    return (
+        <div className="card">
+            <div className="comicImg">
+                <img src={image} alt="" />
             </div>
-        </div>      
-    </div>
-  )
+            <div className="comicTitle">{title}</div>
+        </div>
+    )
 }
 
 export default ComicCard

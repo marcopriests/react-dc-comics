@@ -157,8 +157,19 @@ const ListComics = () => {
         },
     ];
     return (
-        <div>
-            <ComicCard />
+        <div className="cardContainer">
+            <ComicCard image={comics[0].thumb} title={comics[0].series} />
+            <ComicCard image={comics[1].thumb} title={comics[1].series} />
+            <ComicCard image={comics[2].thumb} title={comics[2].series} />
+            <ComicCard image={comics[3].thumb} title={comics[3].series} />
+            <ComicCard image={comics[5].thumb} title={comics[4].series} />
+            <ComicCard image={comics[5].thumb} title={comics[5].series} />
+            <ComicCard image={comics[6].thumb} title={comics[6].series} />
+            <ComicCard image={comics[7].thumb} title={comics[7].series} />
+            <ComicCard image={comics[8].thumb} title={comics[8].series} />
+            <ComicCard image={comics[9].thumb} title={comics[9].series} />
+            <ComicCard image={comics[10].thumb} title={comics[10].series} />
+            <ComicCard image={comics[11].thumb} title={comics[11].series} />
         </div>
     )
 }
