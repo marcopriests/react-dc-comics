@@ -1,9 +1,10 @@
 import React from 'react'
+import ListComics from './ListComics'
 
 const Main = () => {
     return (
         <main>
-            <h1>content goes here</h1>
+            <ListComics />
 
             <div className='cta'>
                 <div className='container'>
