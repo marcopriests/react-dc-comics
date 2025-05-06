@@ -55,6 +55,25 @@ main {
   text-align: center;
 }
 
+.jumbo{
+  height: 500px;
+  background-image: url('public/img/jumbotron.jpg');
+}
+
+.jumbo .container{
+  position: relative;
+  height: 100%;
+}
+
+.tag{
+  background-color: #0c7cec;
+  color: white;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+}
+
 .cardContainer{
   display: flex;
   flex-wrap: wrap;
